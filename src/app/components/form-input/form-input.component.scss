@@ -1,0 +1,14 @@
+@use "../../../styles/variables.scss" as *;
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-content{
+    margin-top: 10px;
+}
+
+.input-wrapper{
+    margin-left: 45px;
+}

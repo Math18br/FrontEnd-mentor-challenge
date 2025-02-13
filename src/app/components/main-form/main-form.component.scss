@@ -1,0 +1,22 @@
+@use "../../../styles/variables.scss" as *;
+
+  main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-section {
+    width: 1000px;
+    height: 700px;
+    background-color: $form-background;
+    margin: 0 auto;
+    border-radius: 3%;
+  }
+
+  h1{
+    font-weight: bold;
+    margin-left: 40px;
+  }
+  
