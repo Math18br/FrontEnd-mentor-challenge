@@ -1,14 +1,23 @@
 @use "../../../styles/variables.scss" as *;
 
-form{
+.input-wrapper{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
-
 .input-content{
-    margin-top: 10px;
+    justify-content: center;
+    border-radius: 8px;
+    display: flex;
 }
 
-.input-wrapper{
-    margin-left: 45px;
+label{
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+input{
+    border-radius: 8px;
+    padding: 16px;
+    width: 85%;
 }
